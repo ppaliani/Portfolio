@@ -1,7 +1,22 @@
 body {
     background-color: rgb(11, 11, 82);
+    height: 100vw;
+    width: 100vh;
 }
 
 p {
     color: aliceblue;
+}
+
+#nav-container {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-bar {
+    width: auto;
+    height: auto;
 }
