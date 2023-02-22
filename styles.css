@@ -48,8 +48,8 @@ a {
 .card {
     padding: .1rem;
     border-radius: 8px;
-    width: 20vw;
-    height: 25vh;
+    width: 22vw;
+    height: 30vh;
     background-color: rgba(255, 255, 255, .4);
     position: relative;
 }
