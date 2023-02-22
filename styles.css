@@ -1,7 +1,10 @@
 body {
-    background: radial-gradient(black, rgb(12, 9, 111));
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(1, 1, 107), rgb(89, 2, 89));
     height: 100vh;
     width: 100vw;
+    padding: 0px;
+    margin: 0px;
 }
 
 p {
@@ -10,6 +13,8 @@ p {
 
 ul {
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -31,5 +36,33 @@ a {
 }
 
 #try-me-btn {
-    background-color: rgb(102, 32, 168);
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+.card {
+    padding: .1rem;
+    border-radius: 8px;
+    width: 20vw;
+    height: 25vh;
+    background-color: rgba(255, 255, 255, .4);
+    position: relative;
+}
+
+/* .card::before {
+    width: inherit;
+    height: inherit;
+    content: '';
+    position: absolute;
+    background: rgb(255, 255, 255, .15);
+    z-index: 1;
+    border-radius: 8px;
+} */
+
+#cards-container {
+    display: flex;
+    justify-content: space-evenly;
 }
